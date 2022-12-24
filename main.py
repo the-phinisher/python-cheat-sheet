@@ -15,9 +15,9 @@ def think(obs, wts):
 
 # All settings
 render = False
-ntests = 2
+ntests = 100
 genwt = lambda : 2 * np.random.random([leos]) - 1
-nwts = 1000
+nwts = 10000
 detaillog = False
 dsprog = True
 progstp = 5
